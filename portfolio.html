@@ -12,28 +12,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <body>
     <!-- HEADER -->
 <header class="header">
     <div class="container header-container">
-        <nav class="header-nav">
-            <a href="index.html" class="logo link">
-                <p lang="en"><span class="logoweb">Web</span><span class="logostudio">Studio</span></p>
+        <nav class="header__nav">
+            <a href="index.html" class="header__logo link">
+                <p lang="en"><span class="header__logoweb">Web</span><span class="header__logostudio">Studio</span></p>
             </a>
-            <ul class="header-list list">
-                <li class="header-list-item"><a class="header-list-link link" href="index.html"> Студия </a></li>
-                <li class="header-list-item"><a class="header-list-link link active" href="portfolio.html"> Портфолио</a></li>
-                <li class="header-list-item"><a class="header-list-link link" href=""> Контакты</a> </li>
+            <ul class="menu-list list">
+                <li class="menu-list__item"><a class="menu-list__link active link" href="index.html"> Студия </a></li>
+                <li class="menu-list__item"><a class="menu-list__link link" href="portfolio.html"> Портфолио</a></li>
+                <li class="menu-list__item"><a class="menu-list__link link" href=""> Контакты</a> </li>
             </ul>
         </nav>
         <div class="header-connect">
-            <a class="header-mail link" href="mailto:info@devstudio.com"><svg class="mail-icon" width="16" height="12">
+            <a class="header-connect__mail link" href="mailto:info@devstudio.com"><svg class="mail-icon" width="16"
+                    height="12">
                     <use href="./images/icon/symbol-defs.svg#icon-mail"></use>
                 </svg>info@devstudio.com </a>
-            <a class="header-phone link" href="tel:+380961111111"><svg class="phone-icon" width="10" height="16">
+            <a class="header-connect__phone link" href="tel:+380961111111"><svg class="phone-icon" width="10"
+                    height="16">
                     <use href="./images/icon/symbol-defs.svg#icon-phone"></use>
                 </svg>+38 096 111 11 11</a>
         </div>

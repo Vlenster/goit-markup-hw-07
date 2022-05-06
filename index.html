@@ -13,26 +13,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <body>
     <!-- /* HEADER */ --> 
 <header  class="header">
     <div class="container header-container">
-        <nav class="header-nav">
-        <a href="index.html"  class="logo link"><p lang="en"><span class="logoweb">Web</span><span class="logostudio">Studio</span></p></a>
-        <ul class="header-list list">
-        <li class="header-list-item"><a class="header-list-link active link" href="index.html">  Студия </a></li>
-        <li class="header-list-item"><a class="header-list-link link" href="portfolio.html"> Портфолио</a></li>
-        <li  class="header-list-item"><a class="header-list-link link" href=""> Контакты</a> </li>
+        <nav class="header__nav">
+        <a href="index.html"  class="header__logo link"><p lang="en"><span class="header__logoweb">Web</span><span class="header__logostudio">Studio</span></p></a>
+        <ul class="menu-list list">
+        <li class="menu-list__item"><a class="menu-list__link active link" href="index.html">  Студия </a></li>
+        <li class="menu-list__item"><a class="menu-list__link link" href="portfolio.html"> Портфолио</a></li>
+        <li  class="menu-list__item"><a class="menu-list__link link" href=""> Контакты</a> </li>
         </ul>
         </nav>
         <div class="header-connect">
-        <a class="header-mail link" href="mailto:info@devstudio.com" ><svg class="mail-icon" width="16" height="12">
+        <a class="header-connect__mail link" href="mailto:info@devstudio.com" ><svg class="mail-icon" width="16" height="12">
             <use href="./images/icon/symbol-defs.svg#icon-mail"></use>
         </svg>info@devstudio.com </a>
-        <a class="header-phone link" href="tel:+380961111111"><svg class="phone-icon" width="10" height="16">
+        <a class="header-connect__phone link" href="tel:+380961111111"><svg class="phone-icon" width="10" height="16">
             <use href="./images/icon/symbol-defs.svg#icon-phone"></use>
         </svg>+38 096 111 11 11</a>
             </div>
@@ -43,8 +44,8 @@
     <!-- /* HERO */ -->
     <section class="hero">
         <div class="container">
-         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-         <button type="button" class="hero-btn button" data-modal-open>Заказать услугу</button>
+         <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+         <button type="button" class="hero__btn button" data-modal-open>Заказать услугу</button>
         </div>
 
         </section>
@@ -53,36 +54,36 @@
      <section class="about">
          <div class="container">
         <ul class="about-list list">
-        <li class="about-list-item icon-antena">
-            <div class="about-icon-box"><svg class="about-icon" width="70" height="70">
+        <li class="about-list__item ">
+            <div class="about-list__icon-box"><svg class="about-list__icon" width="70" height="70">
                 <use href="./images/icon/symbol-defs.svg#icon-antenna-1"></use>
             </svg></div>
-        <h3 class="about-title">Внимание к деталям</h3>
-        <p class="about-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+        <h3 class="about-list__title">Внимание к деталям</h3>
+        <p class="about-list__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
         </li>
 
-        <li class="about-list-item icon-clock">
-            <div class="about-icon-box"><svg class="about-icon" width="70" height="70">
+        <li class="about-list__item ">
+            <div class="about-list__icon-box"><svg class="about-list__icon" width="70" height="70">
                 <use href="./images/icon/symbol-defs.svg#icon-clock-1"></use>
             </svg></div>
-        <h3 class="about-title">Пунктуальность</h3>
-        <p class="about-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+        <h3 class="about-list__title">Пунктуальность</h3>
+        <p class="about-list__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
         </li>
 
-        <li class="about-list-item icon-diagram">
-            <div class="about-icon-box"><svg class="about-icon" width="70" height="70">
+        <li class="about-list__item ">
+            <div class="about-list__icon-box"><svg class="about-list__icon" width="70" height="70">
                 <use href="./images/icon/symbol-defs.svg#icon-diagram-1"></use>
             </svg></div>
-        <h3 class="about-title">Планирование</h3>
-        <p class="about-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+        <h3 class="about-list__title">Планирование</h3>
+        <p class="about-list__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
 
-        <li class="about-list-item icon-astro">
-            <div class="about-icon-box"><svg class="about-icon" width="70" height="70">
+        <li class="about-listlist__item ">
+            <div class="about-list__icon-box"><svg class="about-list__icon" width="70" height="70">
                 <use href="./images/icon/symbol-defs.svg#icon-astronaut-1"></use>
             </svg></div>
-        <h3 class="about-title">Современные технологии</h3>
-        <p class="about-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+        <h3 class="about-list__title">Современные технологии</h3>
+        <p class="about-list__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
         </ul>
         </div>
@@ -90,19 +91,19 @@
 <!-- PRODUCT -->
         <section class="product">
         <div class="container">
-        <h2 class="product-title">Чем мы занимаемся</h2>
+        <h2 class="product__title">Чем мы занимаемся</h2>
         <ul class="product-list list">
-        <li class="product-item">
+        <li class="product-list__item">
             <img src="images/img1.jpg" alt="Верстка" width="370" height="294" />
-            <p class="product-text">Десктопные приложения</p>
+            <p class="product-list__text">Десктопные приложения</p>
         </li>
-        <li class="product-item">
+        <li class="product-list__item">
             <img src="images/img2.jpg" alt="Моб приложение" width="370" height="294" />
-            <p class="product-text">Мобильные приложения</p>
+            <p class="product-list__text">Мобильные приложения</p>
         </li>
-        <li class="product-item">
+        <li class="product-list__item">
             <img src="images/img3.jpg" alt="Дизайн" width="370" height="294" />
-            <p class="product-text">Дизайнерские решения</p>
+            <p class="product-list__text">Дизайнерские решения</p>
         </li>
         </ul>
         </div>
